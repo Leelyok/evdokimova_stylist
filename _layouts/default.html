@@ -1,16 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/style.css" />
-    <title>{{page.title}}</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="robots" content="noindex">
+
+        <!-----Favicon---------------->
+
+
+        <title> Maria Evdokimova </title>
+
+        <!---------Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+        <!------FontAwesome --------->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-----Gridlex-------------->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+
+         <!-----Animate on scroll-------->
+
+         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+         <!-- Lightgallery for pop-ups  -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.8/css/lightgallery-bundle.min.css" integrity="sha512-7xAjdVc23n18sYEAZKa79271IRUS1XzylIyJ8feyXvjrbbr4oId92993EiGTAP63Ob6KplRnmbNmBOg6bpLjYw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!----My own style css------>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+
 
 <body>
+    <header class="grid">
+        <div class="col-4-middle">
+            <a href="/">
+                <h2 class="text-normal"> Maria Evdokimova </h2>
+            </a>
+        </div>
+        <nav class="col-8-middle right hide-md">
+            <a href="#"> Link </a>
+            <a href="#"> Link </a>
+            <a href="#"> Link </a>
+            <a href="#" class="emphasis-button"> Call to Action </a>
+        </nav>
+
+        <div class="col-7 right">
+            <a class="hamburger-button show-md"> MENU </a>
+        </div>
+    </header>
+  
+              
+            
+
+    <!----------Mobile menu-------->
+    <nav class="mobile-menu padded">
+        <a href="#"> Главная </a>
+        <a href="#"> Портфолио </a>
+        <a href="#"> Услуги </a>
+        <a href="#"> Контакты </a>
+    </nav>
+
     {{content}}
+
+    <footer>
+        
+    </footer>
+
+      <!-------Add jQuery script-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+        <!-----our animate scroll-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <!-- Lightgallery for pop-ups  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.8/lightgallery.min.js"></script>
+
+
+        <!-----our custom Javascript file------>
+        <script src="/scripts.js"></script>
+
 </body>
 
 </html>
