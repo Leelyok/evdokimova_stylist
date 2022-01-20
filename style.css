@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+/* Temporary styles */
+
+* {    border: 1px solid rgb(220, 220, 220) }
+html { border: none;}
+body { border: none;}
+/*  finish*/
+
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -140,7 +149,7 @@ a {
 
 nav a {
     text-decoration: none;
-    padding: 0.6rem;
+    padding: 1rem;
 }
 
 a:hover { color: #a2745c; }
