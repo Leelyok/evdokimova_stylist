@@ -176,8 +176,9 @@ a:hover { color: #a2745c; }
 }
 
 .emphasis-button {
-    border: 2px solid;
+    border: 1px solid;
     margin-left: 0.5rem;
+    padding: 0.6rem;
   }
 
 .lower {
@@ -480,7 +481,6 @@ hr.wide {
     p {  font-size: 0.9rem;}
 
     .upper { font-size: 0.9rem; }
-    .emphasis { font-size: 1rem; }
     .text-big { font-size: 2.5rem; }
 
     .horizontal-scroll {
