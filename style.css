@@ -19,6 +19,7 @@ html {
 
 body {
     font-family: 'Merriweather', serif;
+    color: #414141;
 }
 
 img { max-width: 100%; }
@@ -34,7 +35,7 @@ img { max-width: 100%; }
 
 
 .padded      { padding: 5%;    }
-.padded10    { padding: 10%;    }
+.padded-10    { padding: 10%;    }
 .padded-2p   { padding: 2%;    }
 .padded-05 { padding: 0.5rem;  }
 .padded-1  { padding: 1rem;  }
@@ -140,6 +141,12 @@ p:last-child{
 .text-bold  { font-weight: bold;}
 .text-normal  { font-weight: normal;}
 .text-small {   font-size: 0.7rem;}
+.big-bold {
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-size: 10vw;
+  letter-spacing: -0.2vw;
+}
 
 
 a {
@@ -359,15 +366,22 @@ hr.wide {
 /* Background Images */
 
 .bg-image {
-    background-color:rgb(240,240,240); 
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
+    background-color: #F2EEE9;
     background-repeat: no-repeat;
+    opacity: 1;
+    transition: opacity 1s;
 }
 
-.landscape {
-    padding-bottom: 65%;
-}
+
+.landscape { padding-bottom: 65%;}
+.wide-landscape {  padding-bottom: 40%;}
+
+.bg-split-white-tan {background: linear-gradient(180deg, white 50%, #F2EEE9 50%);}
+
+.bg-split-tan-white {background: linear-gradient(180deg, #F2EEE9 50%, white 50%);}
+
 
 .fixed {  background-attachment: fixed; }
 
