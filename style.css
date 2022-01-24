@@ -57,6 +57,7 @@ img { max-width: 100%; }
 
 .margin      { margin: 1rem; }
 .margin-10     { margin: 10%; }
+.margin-t-5 {  margin-top: 5%;}
 .margin-t-m7 { margin-top: -7rem; }
 .margin-t-m1 { margin-top: -1rem; }
 
@@ -176,6 +177,16 @@ a:hover { color: #a2745c; }
   font-weight: 400;
   color: #9d614c;
   border-radius: 0.5rem;
+}
+
+.button-tb {
+  text-decoration: none;
+  border-top: 2px solid; 
+  border-bottom: 2px solid; 
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  font-weight: 400;
+  color: #2c2522;
 }
 
 .button:hover {
@@ -374,9 +385,24 @@ hr.wide {
     transition: opacity 1s;
 }
 
+.bg-img {  background-image: url(/images/evdokimova-st.jpg);}
+.bg-img1 {  background-image: url(/images/photoshoot-asia.jpg);}
+
+.banner, .banner-with-header {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
 
 .landscape { padding-bottom: 65%;}
 .wide-landscape {  padding-bottom: 40%;}
+
+.shape-window {
+  border-top-left-radius: 22rem;
+  border-top-right-radius: 22rem;
+}
 
 .bg-split-white-tan {background: linear-gradient(180deg, white 50%, #F2EEE9 50%);}
 
