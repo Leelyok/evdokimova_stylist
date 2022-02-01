@@ -430,8 +430,8 @@ hr.wide {
   object-fit: cover;
   object-position: center;
   position: absolute;
-  top: 43%;
-  right: 4%;
+  top: 65%;
+  right: 10%;
   width: 600px;
   height: 350px;
   z-index: 1;
@@ -451,7 +451,7 @@ hr.wide {
   background-size: cover;
   background-position: center;
   min-height: 80vh;
-  margin-top: -25rem;
+  margin-top: -35rem;
 }
 
 .banner, .banner-with-header {
