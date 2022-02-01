@@ -6,7 +6,7 @@
 
 /* Temporary styles */
 
-* {    border: 1px solid rgb(220, 220, 220) }
+* {    border: 2px solid rgb(90, 90, 90) }
 html { border: none;}
 body { border: none;}
 /*  finish*/
@@ -18,8 +18,12 @@ html {
 }
 
 body {
-    font-family: 'Merriweather', serif;
-    color: #414141;
+    font-weight: 200;
+    color: black;
+    overflow-x: hidden;
+    width: 100vw;
+    background-color: #EBE8E9;
+    font-family: 'Source Serif Pro', serif;
 }
 
 img { max-width: 100%; }
@@ -53,6 +57,8 @@ img { max-width: 100%; }
 .padded-b-0 { padding-bottom: 0; }
 .padded-t-0 { padding-top: 0; }
 .padded-l-0  { padding-left: 0;  }
+.padded-left {  padding: 0rem 20px;}
+
 .margin-b-0 { margin-bottom: 0; }
 
 .margin      { margin: 1rem; }
@@ -87,6 +93,26 @@ img { max-width: 100%; }
 .left   { text-align: left; }
 .center { text-align: center; }
 .right  { text-align: right; }
+
+
+.title-text {
+  font-family: 'Garda', sans-serif;
+  font-size: 1.9rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+
+.bottom-attached {
+  position: absolute;
+  margin-bottom: -13rem;
+  bottom: 0;
+  right: 30%;
+  width: 20vw;
+  height: 50vh;
+  z-index: 1;
+}
 
 .upper {
     font-size: 1.1rem;
@@ -207,10 +233,21 @@ a:hover { color: #a2745c; }
 
 /* Header & Footer  */
 
-header {
-    padding: 1% 5%;
-    font-weight: 500;
-    font-size: 1.1rem;
+
+header {    display: inline;  }
+
+header nav a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  padding: 0%;
+}
+nav a:hover {color: rgb(63,83,101); }
+
+header nav a, .inline a {
+  display: inline-block;
+  padding: 0.5rem;
 }
 
 footer {
@@ -294,6 +331,10 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+
+.relative { position: relative;}
+
 
 /*   Advanced CSS    */
 
@@ -385,8 +426,33 @@ hr.wide {
     transition: opacity 1s;
 }
 
+.logo-img {
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 43%;
+  right: 4%;
+  width: 600px;
+  height: 350px;
+  z-index: 1;
+}
+
 .bg-img {  background-image: url(/images/evdokimova-st.jpg);}
 .bg-img1 {  background-image: url(/images/asia-shoot.jpg);}
+
+.img-one {
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  border: 10px solid #EBE8E9;
+}
+
+.img-two {
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  margin-top: -25rem;
+}
 
 .banner, .banner-with-header {
   background-size: cover;
@@ -439,9 +505,114 @@ hr.wide {
     display: block;
    }
 
+
+  /* roated menu */
+  
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3rem;
+  /* background: #f1faee;
+  box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.3) */
+}
+@media screen and (min-width: 768px)
+{
+  .header {
+    left: auto;
+    left: 0;
+  width: 3rem;
+  height: 100%;
+    /* box-shadow: -4px 0px 5px 2px rgba(0, 0, 0, 0.3); */
+  }
+
+}
+.list {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 3rem;
+  top: 0;
+  right: 0;
+/*! background: lime; */
+
+}
+@media screen and (min-width: 768px) {
+  .list {
+    width: 100vh;
+    transform-origin: right bottom;
+  transform: rotate(-90deg) translateX(0rem);
+  }
+
+}
+.navigation a {
+  font-size: 1rem;
+  margin-right: 2.5rem;
+  margin-top: 1rem;
+  color: black;
+ font-family: 'Ogg Roman';
+ letter-spacing: 0rem;
+   z-index: 1;
+}
+
+.content__wrapper {
+  position: relative;
+display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  max-width: 1800px;
+  padding-top: 7rem;
+  z-index: -1;
+/*   padding-right: 4vw; */
+/*   background: aqua; */
+}
+@media screen and (min-width: 768px) {
+  .content__wrapper {
+    width: calc(100% - 3rem);
+  }
+}
+.content {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 100%;
+/*   background: sienna; */
+}
+@media screen and (min-width: 768px) {
+  .content {
+    width: 75%;
+  }
+}
+.intro {
+  font-size: 32px;
+}
+@media screen and (min-width: 576px) {
+  .intro {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .intro {
+    font-size: 62px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .intro {
+    font-size: 80px;
+}
+}
+@media screen and (min-width: 1200px) {
+  .intro {
+    font-size: 94px;
+}
+}
+
+
    /* Card Styles  */
-
-
 .card {
     padding-top: 1.5rem;
     color: white;
