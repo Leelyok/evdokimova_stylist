@@ -66,6 +66,8 @@ img { max-width: 100%; }
 .margin-t-5 {  margin-top: 5%;}
 .margin-t-m7 { margin-top: -7rem; }
 .margin-t-m1 { margin-top: -1rem; }
+.m-t-m10 {  margin-top: -10rem;}
+.m-l-m7  {  margin-left: -7rem;}
 
 .margin-b-1 { margin-bottom: 1rem;}
 .margin-b-2 { margin-bottom: 2rem;}
@@ -209,6 +211,16 @@ a:hover { color: #a2745c; }
   text-decoration: none;
   border-top: 2px solid; 
   border-bottom: 2px solid; 
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  font-weight: 400;
+  color: #2c2522;
+}
+
+
+.button-b {
+  text-decoration: none;
+  border-bottom: 1px solid; 
   padding: 0.5rem 1rem;
   display: inline-block;
   font-weight: 400;
@@ -454,6 +466,13 @@ hr.wide {
   margin-top: -35rem;
 }
 
+.img-two2 {
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+  margin-top: -15rem;
+}
+
 .banner, .banner-with-header {
   background-size: cover;
   background-position: center;
@@ -609,6 +628,106 @@ display: flex;
   .intro {
     font-size: 94px;
 }
+}
+
+/* funky images */
+
+.css-slideshow{
+  position: relative;
+  max-width: 495px;
+  height: auto;
+  margin: 5em auto .5em auto;
+}
+.css-slideshow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.css-slideshow figure{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background: rgba(245,245,245,0);
+  float: left;
+  margin-left: -100%;
+  transform: translateX(100%);
+}
+.css-slideshow img{
+  box-shadow: 0 0 2px #666;
+
+  object-fit: cover;
+  object-position: center;
+    width: 100%;
+    height: 70vh;
+}
+.css-slideshow figcaption{
+  position: absolute;
+  top: 0;
+  color: #fff;
+  background: rgba(0,0,0, .3);
+  font-size: .8em;
+  padding: 8px 12px;
+  opacity: 0;
+  transition: opacity .5s;
+}
+.css-slideshow:hover figure figcaption{
+  transition: opacity .5s;
+  opacity: 1;
+}
+.css-slideshow-attr{
+  max-width: 495px;
+  text-align: right;
+  font-size: .7em;
+  font-style: italic;
+  margin:0 auto;
+}
+.css-slideshow-attr a{
+  color: #666;
+}
+.css-slideshow figure{
+  opacity:0;
+}
+figure:nth-child(1) {
+  animation: xfade 2s 2s infinite;
+}
+figure:nth-child(2) {
+  animation: xfade 2s 1.75s infinite;
+}
+figure:nth-child(3) {
+  animation: xfade 2s 1.5s infinite;
+}
+figure:nth-child(4) {
+  animation: xfade 2s 1.25s infinite;
+}
+figure:nth-child(5) {
+  animation: xfade 2s 1s infinite;
+}
+figure:nth-child(6) {
+  animation: xfade 2s 0.75s infinite;
+}
+figure:nth-child(7) {
+  animation: xfade 2s 0.5s infinite;
+}
+figure:nth-child(8) {
+  animation: xfade 2s 0.25s infinite;
+}
+
+@keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  12.5% {
+    opacity: 1;
+  }
+  14.5%{
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 
