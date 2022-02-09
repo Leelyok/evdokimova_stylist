@@ -67,7 +67,7 @@ title: Homepage
             </figure>
         </div>
     </div>
-    <div class="col-3_sm-6-middle m-l-m7">
+    <div class="col-3_sm-6-middle m-l-m4">
         <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, numquam mollitia. Beatae fuga recusandae vero cum dolor! Enim, eligendi magnam nihil quod mollitia labore tenetur sapiente aspernatur illo, distinctio quasi!</p>
     </div>
 </section>
@@ -150,7 +150,12 @@ title: Homepage
 
 <!----empty sections----->
 <section class="padded-10"></section>
-<section class="padded-10"></section>
+<!---TEXT---->
+<section class="padded-10 grid-center padded-t-0">
+    <div class="col-9_md-12-middle button-tb padded-10 padded-t-0"> 
+        <p class="padded center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eius similique error dolores, omnis dolorem quia aliquid hic, at facere quasi libero esse adipisci iure quam? Rerum accusamus autem nostrum?</p>
+    </div>
+</section>
 
 <!-----BANNER SECTION----->
 
@@ -158,12 +163,8 @@ title: Homepage
     <div class="bg-image opacity08 wide-landscape" style="background-image:url(/images/banner-stilist-evdokimova.jpg);"></div>
 </section>
 
-<!---TEXT---->
-<section class="padded-10 bg-blue grid-center padded-t-0">
-    <div class="col-9_md-12-middle button-tb padded-10 padded-t-0"> 
-        <p class="padded center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eius similique error dolores, omnis dolorem quia aliquid hic, at facere quasi libero esse adipisci iure quam? Rerum accusamus autem nostrum?</p>
-    </div>
-</section>
+<section class="padded bg-blue"></section>
+
 
 <!----Portfolio section----->
 <section class="padded-10"></section>
@@ -222,4 +223,45 @@ title: Homepage
             <a class="emphasis" href="#"> Смотреть полное портфолио &#8674; </a>
         </div>
     </div>
+</section>
+
+
+<!-----CONTACT---------->
+
+<section class="grid-center padded flex-display">
+    <div class="col-10_md-12 center padded">
+        <h2> КОНТАКТЫ </h2>
+    </div>
+    <div class="col-2"></div>
+    <div class="col-5-right_md-6_sm-12">
+        <img class="about-img relative" src="/images/evdokimova-stilist1.jpg">
+    </div>
+    <div class="col-5_md-6_sm-12-middle padded">
+        <div class="margin-b-2">
+          <p class="margin-t-1"> Если вы хотите узнать больше об услугах персонального стилиста или зарезервировать сессию со мной, пожалуйста, заполните форму ниже.
+          </p>
+         </br>
+         <p> 
+           <strong>Email: </strong>
+           <a href="mailto:epicoffee1@gmail.com"> epicoffee1@gmail.com </a>
+         </p>
+         <p> 
+           <strong> Instagram: </strong>
+           <a href="https://www.instagram.com/evdokimova_stilist/"> @evdokimova_stilist </a>
+         </p>
+        </div>
+         <form class="grid-center form-styled" action="https://formspree.io/f/111111"
+         method="POST">
+         <div class="col-6_sm-12">
+           <input type="text" name="_name" id="_name" placeholder="Имя" />
+         </div>
+         <div class="col-6_sm-12">
+           <input type="email" name="_replyto" id="_replyto" placeholder="Email" />
+         </div>
+         <div class="col-12">
+           <textarea name="message" id="message" placeholder="Напишите немного о себе и ваш вопрос..."></textarea>
+           <button type="submit"> ОТПРАВИТЬ </button>
+         </div>
+       </form> 
+        </div>
 </section>

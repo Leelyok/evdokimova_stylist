@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-/* Temporary styles */
+/* Temporary styles 
 
 * {    border: 2px solid rgb(90, 90, 90) }
 html { border: none;}
 body { border: none;}
-/*  finish*/
+ finish*/
 
 
 
@@ -73,6 +73,7 @@ img { max-width: 100%; }
 .margin-t-m1 { margin-top: -1rem; }
 .m-t-m10 {  margin-top: -10rem;}
 .m-l-m7  {  margin-left: -7rem;}
+.m-l-m4  {  margin-left: -4rem;}
 
 .margin-b-1 { margin-bottom: 1rem;}
 .margin-b-2 { margin-bottom: 2rem;}
@@ -293,7 +294,13 @@ header nav a, .inline a {
 }
 
 footer {
-    color: rgb(240, 240, 240);
+    color: #1D1D1B;
+}
+
+.small-footer {
+  font-size: .6rem;
+  font-weight: 200;
+  letter-spacing: .05rem;
 }
 
 
@@ -565,15 +572,22 @@ hr.wide {
   object-fit: cover;
   object-position: center;
   position: absolute;
-  top: 65%;
-  right: 10%;
+  top: 50%;
+  right: 3%;
   width: 600px;
   height: 350px;
   z-index: 1;
 }
 
+.small-img img {  max-width: 30%;}
+
 .bg-img {  background-image: url(/images/evdokimova-st.jpg);}
 .bg-img1 {  background-image: url(/images/asia-shoot.jpg);}
+
+.about-img {
+  max-width: 85%;
+  box-shadow: -50px 45px #d4dfe5;
+}
 
 .img-one {
   background-size: cover;
@@ -651,6 +665,74 @@ hr.wide {
 .dropdown-content a {
     display: block;
    }
+
+
+
+/*  Contact form */
+form input, 
+form textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 2px solid rgb(220,220,220);
+  outline: none;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: grey;
+}
+
+textarea {
+  min-height: 4rem;
+}
+
+form label {
+  margin-top: 1rem;
+  display: block;
+  color: #6C7A89;
+  font-weight: bold;
+}
+
+form button {
+  background-color: grey;
+  color: white;
+  border: none;
+  padding: 0.5rem 2rem;
+  letter-spacing: 0.1em;
+  margin: 0.5rem 0;
+}
+
+.form-styled input,
+.form-styled texarea {
+  border: 2px solid rgb(220,220,220);;
+  background-color: #Fff;
+}
+
+.form-styled label {
+  color: inherit;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.form-styled button {
+  border: 2px solid #6C7A89;
+  background-color: white;
+  color: #696666;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+}
+
+.form-styled input:focus,
+.form-styled textarea:focus {
+  border-color: #6C7A89;
+}
+
+
 
 
   /* roated menu */
