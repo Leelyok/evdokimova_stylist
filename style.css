@@ -139,6 +139,9 @@ img { max-width: 100%; }
 .emphasis {
     font-size: 1.2rem;
     font-weight: 300;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #414141;
+    font-style: italic;
 }
 
 .flex-flip-alternate:nth-child(even) {
