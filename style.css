@@ -85,7 +85,7 @@ img { max-width: 100%; }
 .bg-dark      { background-color: #5a5a4e; }
 
 .bg-yellow { background-color: #f9ba4e; }
-.bg-blue { background-color: #c6e1e8; }
+.bg-blue { background-color: #D4DFE5; }
 .bg-red { background-color: #c86757; }
 
 .text-light { color: #fff; } 
@@ -542,7 +542,7 @@ hr.wide {
   border-top-right-radius: 22rem;
 }
 
-.bg-split-white-tan {background: linear-gradient(180deg, white 50%, #F2EEE9 50%);}
+.bg-split-white-blue {background: linear-gradient(180deg, white 50%, #D4DFE5 50%);}
 
 .bg-split-tan-white {background: linear-gradient(180deg, #F2EEE9 50%, white 50%);}
 
