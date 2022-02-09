@@ -90,7 +90,7 @@ img { max-width: 100%; }
 .bg-red { background-color: #c86757; }
 
 .text-light { color: #fff; } 
-.text-dark {  color: #5e5746;}
+.text-dark {  color: #414141;}
 .black {  color: #000;}
 
 .subtle {    
@@ -114,7 +114,7 @@ img { max-width: 100%; }
 }
 
 .cs-title {
-  font-family: 'Merriweather Sans', sans-serif;
+  /*font-family: 'Merriweather Sans', sans-serif;*/
   font-size: 1.6rem;
   text-transform: uppercase;
   letter-spacing: .2rem;
