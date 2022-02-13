@@ -89,6 +89,8 @@ img { max-width: 100%; }
 .bg-yellow { background-color: #f9ba4e; }
 .bg-blue { background-color: #D4DFE5; }
 .bg-red { background-color: #c86757; }
+.bg-beige { background-color: #F5EFE8; }
+.bg-footer { background-color: #E6E0D0;}
 
 .text-light { color: #fff; } 
 .text-dark {  color: #414141;}
@@ -219,12 +221,12 @@ a:hover { color: #a2745c; }
 
 .border  { border: 20px solid #f7f4ef;}
 .border30  { border: 30px solid #f7f4ef;}
-.border-05 {  border: 0.5rem solid #ebe8e9;}
-.border-05t { border-top: 0.5rem solid #ebe8e9;}
+.border-05 {  border: 0.5rem solid #FFF;}
+.border-05t { border-top: 0.5rem solid #fff;}
 .border-t1 { 
-  border-top: 1rem solid #ebe8e9;
-  border-right: 0.5rem solid #ebe8e9;
-  border-left: 0.5rem solid #ebe8e9;
+  border-top: 1rem solid #fff;
+  border-right: 0.5rem solid #fff;
+  border-left: 0.5rem solid #ffffff;
 }
 
 .block    { display: block;}
@@ -694,7 +696,7 @@ hr.wide {
 
 .about-img {
   max-width: 85%;
-  box-shadow: -50px 45px #d4dfe5;
+  box-shadow: -50px 45px #E4DECE;
 }
 
 .img-one {
@@ -1047,6 +1049,98 @@ figure:nth-child(8) {
   }
 }
 
+
+ /* text slider*/
+
+ .author {
+  font-size: 0.9rem;
+  color: rgb(90,90,90);
+  margin-top: 0.5rem;
+  margin-right: 2rem;
+  font-style: italic;
+  text-align: right;
+}
+
+.quote-icon {
+  font-size: 4rem;
+  color: rgb(200,200,200);
+  font-family: open inherit;
+}
+
+.quote-icon2 {
+  font-size: 2rem;
+  color: rgb(200,200,200);
+  font-family: inherit;
+}
+
+.fab {
+  font-size: 1.5rem;
+}
+
+.fas {
+  font-size: 1.5rem;
+}
+
+/* Slider */
+.testimonial-slider-container {
+  padding: 5%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.slider-item {
+  padding: 1rem;
+  display: none;
+}
+
+.slider-item:first-child {
+  display: block;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next::before, .slick-prev::before {
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: rgb(90,90,90);
+}
+
+.slick-dots {
+  left: 0;
+  bottom: 10px;
+  /*  Without this the padding on the parent affects the centering of the dots. Do not delete.    */
+}
+
+.slick-dots li,
+.slick-dots li button {
+  width: 10px;
+}
+
+.slick-dots li button::before {
+  color: rgb(90,90,90);
+}
+
+.slick-dots li.slick-active button::before {
+  color: rgb(90,90,90);
+}
+
+
+/* Slider Text Styles  */
+
+.slider-item p {
+  text-align: justify;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 1.5rem;
+  color: rgb(90, 90, 90);
+}
 
    /* Card Styles  */
 .card {
