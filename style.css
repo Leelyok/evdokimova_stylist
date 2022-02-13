@@ -46,6 +46,7 @@ img { max-width: 100%; }
 .padded-2  { padding: 2rem;  }
 .padded-6  { padding: 6rem;  }
 .padded-10  { padding: 10rem;  }
+.padded-20  { padding: 20rem;  }
 
 
 .padded-t  { padding-top: 5%;     }
@@ -713,8 +714,8 @@ hr.wide {
 .img-two2 {
   background-size: cover;
   background-position: center;
-  min-height: 50vh;
-  margin-top: -15rem;
+  min-height: 70vh;
+  margin-top: -20rem;
 }
 
 .img-position { background-position: 50% 13%;}
