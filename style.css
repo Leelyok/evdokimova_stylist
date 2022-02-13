@@ -1276,6 +1276,8 @@ figure:nth-child(8) {
 
       .emphasis {   font-size: 0.8rem;   }
       .slider-item p { font-size: 1.2rem;}
+
+      .padded-20  { padding: 14rem;  }
 }
 
 @media(max-width: 36em) {
