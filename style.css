@@ -1211,8 +1211,8 @@ figure:nth-child(8) {
      }
 
      .img-two2 {
-      min-height: 45vh;
-      margin-top: -18rem;
+      min-height: 30vh;
+      margin-top: -12rem;
     }
 
     .margin-t-m7 { margin-top: 0; }
@@ -1228,6 +1228,8 @@ figure:nth-child(8) {
 
      
     .title-text {   font-size: 1rem;  }
+    .slider-item p { font-size: 1.3rem;}
+    
     
   }
 
@@ -1272,9 +1274,8 @@ figure:nth-child(8) {
         max-width: 70%;
       }
 
-      .emphasis {
-        font-size: 0.8rem;
-      }
+      .emphasis {   font-size: 0.8rem;   }
+      .slider-item p { font-size: 1.2rem;}
 }
 
 @media(max-width: 36em) {
@@ -1282,5 +1283,8 @@ figure:nth-child(8) {
     h1 { font-size: 1.3rem;}
 
     h3 { font-size: 1.1rem;}
+
+    .slider-item p { font-size: 1.1rem;}
+    
    
 }
