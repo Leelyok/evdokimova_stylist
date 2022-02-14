@@ -1056,30 +1056,16 @@ figure:nth-child(8) {
   font-size: 0.9rem;
   color: rgb(90,90,90);
   margin-top: 0.5rem;
-  margin-right: 2rem;
   font-style: italic;
   text-align: right;
 }
 
+
 .quote-icon {
   font-size: 4rem;
   color: rgb(200,200,200);
-  font-family: open inherit;
 }
 
-.quote-icon2 {
-  font-size: 2rem;
-  color: rgb(200,200,200);
-  font-family: inherit;
-}
-
-.fab {
-  font-size: 1.5rem;
-}
-
-.fas {
-  font-size: 1.5rem;
-}
 
 /* Slider */
 .testimonial-slider-container {
@@ -1137,10 +1123,10 @@ figure:nth-child(8) {
 
 .slider-item p {
   text-align: justify;
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Playfair Display';
   font-size: 1.5rem;
-  color: rgb(90, 90, 90);
 }
+
 
    /* Card Styles  */
 .card {
