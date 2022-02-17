@@ -689,6 +689,13 @@ hr.wide {
   z-index: 1;
 }
 
+.quote {
+  object-fit: contain;
+  object-position: center;
+  height: 10vh;
+  margin-bottom: -5rem;
+}
+
 .small-img img {  max-width: 30%;}
 
 .bg-img {  background-image: url(/images/evdokimova-st.jpg);}
@@ -1070,7 +1077,7 @@ figure:nth-child(8) {
 /* Slider */
 .testimonial-slider-container {
   padding: 5%;
-  max-width: 900px;
+  max-width: 1390px;
   margin: auto;
 }
 
@@ -1122,8 +1129,8 @@ figure:nth-child(8) {
 /* Slider Text Styles  */
 
 .slider-item p {
-  text-align: justify;
-  font-family: 'Playfair Display';
+  text-align: center;
+  font-family: 'Source Serif Pro', serif;
   font-size: 1.5rem;
 }
 
@@ -1215,7 +1222,10 @@ figure:nth-child(8) {
      
     .title-text {   font-size: 1rem;  }
     .slider-item p { font-size: 1.3rem;}
-    
+    .quote {
+      height: 8vh;
+      margin-bottom: -3rem;
+    }
     
   }
 
@@ -1264,6 +1274,10 @@ figure:nth-child(8) {
       .slider-item p { font-size: 1.2rem;}
 
       .padded-20  { padding: 14rem;  }
+      .quote {
+        height: 6vh;
+        margin-bottom: -1rem;
+      }
 }
 
 @media(max-width: 36em) {
@@ -1274,5 +1288,8 @@ figure:nth-child(8) {
 
     .slider-item p { font-size: 1.1rem;}
     
-   
+    .quote {
+      height: 6vh;
+      margin-bottom: -1rem;
+    }
 }
