@@ -123,6 +123,13 @@ img { max-width: 100%; }
   letter-spacing: .2rem;
 }
 
+.tags {
+font-weight: 400;
+line-height: 1.6;
+margin-bottom: 0.8rem;
+font-size: 1.2rem;
+}
+
 .bottom-attached {
   position: absolute;
   margin-bottom: -10rem;
@@ -1278,6 +1285,8 @@ figure:nth-child(8) {
         height: 6vh;
         margin-bottom: -1rem;
       }
+
+      .slider-item p { font-size: 1rem;}
 }
 
 @media(max-width: 36em) {
@@ -1286,7 +1295,7 @@ figure:nth-child(8) {
 
     h3 { font-size: 1.1rem;}
 
-    .slider-item p { font-size: 1.1rem;}
+    .slider-item p { font-size: 1rem;}
     
     .quote {
       height: 6vh;
