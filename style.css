@@ -57,6 +57,10 @@ img { max-width: 100%; }
   padding-right: 5%;
   padding-left: 5%; 
 }
+.padded-tb  { 
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 
 .padded-0 { padding: 0; }
 .padded-b-0 { padding-bottom: 0; }
@@ -69,6 +73,7 @@ img { max-width: 100%; }
 .margin      { margin: 1rem; }
 .margin-10     { margin: 10%; }
 .margin-t-1 {  margin-top: 1rem;}
+.margin-t-2 {  margin-top: 2rem;}
 .margin-t-5 {  margin-top: 5%;}
 .margin-t-m7 { margin-top: -7rem; }
 .margin-t-m1 { margin-top: -1rem; }
@@ -211,6 +216,10 @@ p:last-child {
   letter-spacing: -0.2vw;
 }
 
+.big-number {
+  font-size: 3.5rem;
+}
+
 
 a {
     color: inherit;
@@ -235,6 +244,13 @@ a:hover { color: #a2745c; }
   border-right: 0.5rem solid #fff;
   border-left: 0.5rem solid #ffffff;
 }
+
+.border-nl {
+  border-top: 20px solid #ebe8e9;
+  border-bottom: 20px solid #ebe8e9;
+  border-right: 20px solid #ebe8e9;
+}
+
 
 .block    { display: block;}
 
@@ -711,7 +727,31 @@ hr.wide {
 .bg-wardrope {  
   background-image: url(/images/wardrope.jpg);
   background-position: 50% 40%;
-  border: 50px solid #e6e0d0;
+  border: 50px solid #ebe8e9;
+}
+
+.bg-revizia {
+  background-image: url(/images/revizia-garderoba.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.bg-shopping {
+  background-image: url(/images/look-of-the-day.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.bg-dress {
+  background-image: url(/images/black-dress.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.bg-style {
+  background-image: url(/images/style-brand.jpg);
+  background-size: cover;
+  background-position: top;
 }
 
 .about-img {
@@ -744,7 +784,7 @@ hr.wide {
 
 .banner, .banner-with-header {
   background-size: cover;
-  background-position: center;
+  /*background-position: center;  */
   position: relative;
 }
 
@@ -1192,6 +1232,7 @@ figure:nth-child(8) {
     .md-tall-80 {  min-height: 80vh;}
     .md-tall-70 {  min-height: 70vh;}
     .md-tall-60 {  min-height: 60vh;}
+    .md-tall-50 {  min-height: 50vh;}
     
 
     .emphasis { font-size: 1rem; }
