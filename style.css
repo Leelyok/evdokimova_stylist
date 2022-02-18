@@ -95,6 +95,8 @@ img { max-width: 100%; }
 .bg-blue { background-color: #D4DFE5; }
 .bg-red { background-color: #c86757; }
 .bg-beige { background-color: #F5EFE8; }
+.bg-light2 { background-color: #f2efea }
+
 .bg-footer { background-color: #E6E0D0;}
 
 .text-light { color: #fff; } 
@@ -246,9 +248,9 @@ a:hover { color: #a2745c; }
 }
 
 .border-nl {
-  border-top: 20px solid #ebe8e9;
-  border-bottom: 20px solid #ebe8e9;
-  border-right: 20px solid #ebe8e9;
+  border-top: 20px solid #f2efea;
+  border-bottom: 20px solid #f2efea;
+  border-right: 20px solid #f2efea;
 }
 
 
@@ -727,7 +729,7 @@ hr.wide {
 .bg-wardrope {  
   background-image: url(/images/wardrope.jpg);
   background-position: 50% 40%;
-  border: 50px solid #ebe8e9;
+  border: 50px solid #f2efea;
 }
 
 .bg-revizia {
