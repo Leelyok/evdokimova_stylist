@@ -51,7 +51,7 @@ img { max-width: 100%; }
 
 .padded-t  { padding-top: 5%;     }
 .padded-b  { padding-bottom: 5%;  }
-.padded-l  { padding-left: 3%;    }
+.padded-l  { padding-left: 4%;    }
 .padded-r  { padding-right: 5%;   }
 .padded-ntb  { 
   padding-right: 5%;
@@ -759,6 +759,11 @@ hr.wide {
 .about-img {
   max-width: 85%;
   box-shadow: -50px 45px #E4DECE;
+}
+
+.about-img1 {
+  max-width: 85%;
+  box-shadow: 50px -45px #E4DECE;
 }
 
 .img-one {
