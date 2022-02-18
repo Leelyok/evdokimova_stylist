@@ -248,9 +248,9 @@ a:hover { color: #a2745c; }
 }
 
 .border-nl {
-  border-top: 20px solid #f2efea;
-  border-bottom: 20px solid #f2efea;
-  border-right: 20px solid #f2efea;
+  border-top: 20px solid #ffffff;
+  border-bottom: 20px solid #ffffff;
+  border-right: 20px solid #ffffff;
 }
 
 
@@ -302,7 +302,7 @@ a:hover { color: #a2745c; }
 }
 
 
-/* Header & Footer  */
+/* Header & Footer - #c2b0a1 */
 
 
 header {    display: inline;  }
@@ -729,7 +729,7 @@ hr.wide {
 .bg-wardrope {  
   background-image: url(/images/wardrope.jpg);
   background-position: 50% 40%;
-  border: 50px solid #f2efea;
+  border: 50px solid #ffffff;
 }
 
 .bg-revizia {
@@ -896,8 +896,9 @@ form button {
 }
 
 .form-styled button {
-  border: 2px solid #6C7A89;
-  background-color: white;
+  border: 2px solid #e6e0d0;
+  width: 100%;
+  background-color: #e6e0d0;
   color: #696666;
   font-size: 1rem;
   letter-spacing: 0.05em;
