@@ -711,6 +711,7 @@ hr.wide {
 .bg-wardrope {  
   background-image: url(/images/wardrope.jpg);
   background-position: 50% 40%;
+  border: 50px solid #e6e0d0;
 }
 
 .about-img {
@@ -1209,6 +1210,7 @@ figure:nth-child(8) {
      .bg-mob {    min-height: 65vh;  }
 
      .border  { border: 15px solid #f7f4ef; }
+     .border2  { border: 50px solid #e6e0d0; }
 
      .img-one {   min-height: 60vh;   }
      .img-two {
