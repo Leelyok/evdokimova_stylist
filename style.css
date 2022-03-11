@@ -263,6 +263,9 @@ a:hover { color: #a2745c; }
   border-right: 20px solid #ffffff;
 }
 
+.border-left {
+  border-left: 2px solid;
+}
 
 .block    { display: block;}
 
@@ -539,6 +542,12 @@ a.bg-image {  display: block;}
 
 .relative { position: relative;}
 
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 
 /*   Advanced CSS    */
 
@@ -711,6 +720,13 @@ hr.wide {
     background-repeat: no-repeat;
     opacity: 1;
     transition: opacity 1s;
+}
+
+.portfolio-item .bg-image {
+  padding-bottom: 120%;
+  margin-bottom: 1.5rem;
+  transition: all 0.5s;
+  margin-top: 2rem;
 }
 
 .logo-img {
