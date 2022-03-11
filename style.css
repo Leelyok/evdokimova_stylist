@@ -36,6 +36,7 @@ img { max-width: 100%; }
 .tall-80 { min-height: 80vh; }
 .tall-90 { min-height: 90vh; }
 .tall-100 { min-height: 100vh; }
+.tall-110 { min-height: 110vh; }
 
 
 .padded      { padding: 5%;    }
@@ -216,6 +217,15 @@ p:last-child {
   font-weight: bold;
   font-size: 7vw;
   letter-spacing: -0.2vw;
+}
+
+.portfolio-heading {
+  transform: rotate(270deg);
+  display: inline-block;
+  font-size: 15vh;
+  position: absolute;
+  top: 36vh;
+  right: -22vh;
 }
 
 .big-number {
@@ -754,6 +764,10 @@ hr.wide {
   background-image: url(/images/style-brand.jpg);
   background-size: cover;
   background-position: top;
+}
+
+.bg-portfolio {
+  background-image: url(/images/maria-stylist.jpg);
 }
 
 .about-img {
