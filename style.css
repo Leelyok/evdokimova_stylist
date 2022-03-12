@@ -729,6 +729,12 @@ hr.wide {
   margin-top: 2rem;
 }
 
+.portfolio-item:hover .bg-image {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+
 .logo-img {
   object-fit: cover;
   object-position: center;
