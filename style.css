@@ -225,7 +225,7 @@ p:last-child {
   font-size: 15vh;
   position: absolute;
   top: 36vh;
-  right: -22vh;
+  right: -30vh;
 }
 
 .big-number {
@@ -1363,7 +1363,10 @@ figure:nth-child(8) {
         -webkit-overflow-scrolling: auto;
       }
       .portfolio-image {   min-height: 90vh;   }
-      .portfolio-heading {    right: -29vh;   }
+      .portfolio-heading {    
+        right: -31vh;
+        font-size: 12vh;
+       }
       
       .card img {
         margin-top: -25%;
