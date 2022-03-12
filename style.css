@@ -1356,6 +1356,15 @@ figure:nth-child(8) {
         padding-right: 1rem;
         padding-bottom: 7%;
       }
+
+      .mob-horizontal-scroll {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        -webkit-overflow-scrolling: auto;
+      }
+      .portfolio-image {   min-height: 90vh;   }
+      .portfolio-heading {    right: -29vh;   }
+      
       .card img {
         margin-top: -25%;
       }
