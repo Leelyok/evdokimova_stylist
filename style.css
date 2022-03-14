@@ -109,6 +109,11 @@ img { max-width: 100%; }
     font-size: 0.9rem;
 }
 
+.capped-width {
+  max-width: 1100px;
+  margin: auto;
+}
+
 
 .left   { text-align: left; }
 .center { text-align: center; }
@@ -532,6 +537,24 @@ a.bg-image {  display: block;}
   transform-origin: bottom right 0;
 }
 
+.vertical-text1 {
+  font-size: 8vw;
+  transform: translateX(-50%) translateY(-50%) rotate(90deg);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+p.image-caption-left {
+  transform: rotate(270deg);
+  transform-origin: top left 0;
+  margin-left: -1.5rem;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
 
 .flex-display {
     display: flex;
@@ -836,6 +859,7 @@ hr.wide {
 .landscape      {  padding-bottom: 65%;}
 .wide-landscape {  padding-bottom: 33%;}
 .tall-landscape {  padding-bottom: 68%;}
+.square         {  padding-bottom: 100%;}
 
 .opacity08 { opacity: 0.8;}
 
