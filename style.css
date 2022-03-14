@@ -99,6 +99,7 @@ img { max-width: 100%; }
 .bg-light2 { background-color: #f2efea }
 
 .bg-footer { background-color: #E6E0D0;}
+.v-light-bg {  background-color: #f8f6f4;}
 
 .text-light { color: #fff; } 
 .text-dark {  color: #414141;}
@@ -127,6 +128,11 @@ img { max-width: 100%; }
   text-transform: uppercase;
   position: relative;
   z-index: 1;
+}
+
+.subtle-heading {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
 }
 
 .cs-title {
@@ -191,14 +197,14 @@ h2,h3,h4,h5,h6 {
     /*letter-spacing: -0.01em;*/
 }
 
-h2 {
-    font-size: 2rem;
-}
+h2 {    font-size: 2rem;}
 
 h3 {
     font-size: 1.5rem;
     font-weight: normal;
 }
+
+h4 {  font-size: 1.4rem;}
 
 p  {
  font-weight: 300;   
@@ -299,7 +305,6 @@ a:hover { color: #a2745c; }
   font-weight: 400;
   color: #2c2522;
 }
-
 
 .button-b {
   text-decoration: none;
@@ -750,6 +755,60 @@ hr.wide {
     opacity: 1;
     transition: opacity 1s;
 }
+
+.bg-image.lazy {
+  background-image: none!important;
+  opacity: 0;
+}
+
+a.bg-image {
+  display: block;
+}
+
+.project-gallery {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.project-gallery a {
+  display: block;
+}
+
+  .col-one-third {
+    flex-basis: 33.33%;
+    max-width: 33.33333%;
+  }
+
+  .col-one-half {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  .col-two-thirds {
+    flex-basis: 66.66%;
+    max-width: 66.66%;
+  }
+
+  .col-full-width {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .one-third {
+    padding-bottom: 123%;
+  }
+
+  .one-half {
+    padding-bottom: 115%;
+  }
+
+  .two-thirds {
+    padding-bottom: 60%;
+  }
+
+  .full-width {
+    padding-bottom: 60%;
+  }
 
 .portfolio-item .bg-image {
   padding-bottom: 120%;
@@ -1457,10 +1516,7 @@ figure:nth-child(8) {
       .campaign-heading + p {
         margin-top: -2rem;
       }
-      .subtle-heading {
-        font-size: 1.4rem;
-        text-transform: uppercase;
-      }
+      
       .tall-portrait {
         padding-bottom: 150%;
       }
@@ -1484,5 +1540,11 @@ figure:nth-child(8) {
     .quote {
       height: 6vh;
       margin-bottom: -1rem;
+    }
+
+    .related-projects {
+      padding-right: 0;
+      padding-left: 0;
+      padding-bottom: 0;
     }
 }
