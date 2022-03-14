@@ -1517,8 +1517,12 @@ figure:nth-child(8) {
         margin-top: -2rem;
       }
       
-      .tall-portrait {
-        padding-bottom: 150%;
+      .tall-portrait {        padding-bottom: 150%;      }
+      .vertical-text1 {
+        font-size: 15vw;
+        transform: none;
+        position: static;
+        margin: 0;
       }
 
     }
