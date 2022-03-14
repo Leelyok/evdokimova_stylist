@@ -1487,13 +1487,6 @@ figure:nth-child(8) {
         margin-top: 4rem;
       }
 
-      .vertical-text {
-        font-size: 15vw;
-        transform: none;
-        position: static;
-        margin: 0;
-      }
-
       .title-container {
         padding: 5% 0 0;
       }
