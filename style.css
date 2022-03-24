@@ -1085,11 +1085,17 @@ form button {
 }
 .navigation a {
   font-size: 1.1rem;
-  margin-right: 2.5rem;
+  margin-right: 2rem;
   margin-top: 1rem;
   color: black;
   letter-spacing: 0rem;
   z-index: 1;
+}
+
+.fa-brands, .fab {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  font-size: 1.7rem;
 }
 
 .content__wrapper {
