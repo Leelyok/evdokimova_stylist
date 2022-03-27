@@ -1349,7 +1349,27 @@ figure:nth-child(8) {
     margin-top: -2.5rem;
   }
   
+/* Card 2 Styles  */
 
+
+.card2 {
+  padding-top: 1.5rem;
+  color: rgb(65,60,60);
+  border-radius: 5px;
+}
+
+.card2:hover {
+  box-shadow: 0 20px 25px -5px rgba(0,0,0,.2),0 10px 10px -5px rgba(0,0,0,.2);
+}
+
+.card2 h3 {
+  font-size: 1.8rem;
+}
+
+/*.card img {
+  margin-top: -2.5rem;
+}
+*/
 
   
 /* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
@@ -1447,7 +1467,7 @@ figure:nth-child(8) {
     .horizontal-scroll {
         overflow-x: auto;
         flex-wrap: nowrap;
-        padding-left: 1rem;
+        padding-left: 5rem;
         padding-right: 1rem;
         padding-bottom: 7%;
       }
