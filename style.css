@@ -223,7 +223,7 @@ p:last-child {
     margin-bottom:0;
 }
 
-.text-big {  font-size: 4rem;}
+.text-big {  font-size: 3rem;}
 .text-bold  { font-weight: bold;}
 .text-normal  { font-weight: normal;}
 .text-small {   font-size: 0.7rem;}
@@ -1398,9 +1398,14 @@ figure:nth-child(8) {
     
     header h3 { font-size: 10vw;}
     h1 { font-size: 2.5rem;}
+    h2 { font-size: 1.7rem;}
+    h3 { font-size: 1.3rem;}
     p {  font-size: 0.9rem;}
 
+    .text-big { font-size: 2.5rem; }
+
     .padded-10 { padding: 1rem;}
+    .mob-padded-0 { padding: 0;}
 
     .rotated { 
         color: #fff;
@@ -1431,7 +1436,7 @@ figure:nth-child(8) {
       }
 
      .m-l-m4  {  margin-left: 3rem;}
-
+     .md-padded-2 { padding: 2%;}
      .z-index3 { z-index: 3;}
 
      
