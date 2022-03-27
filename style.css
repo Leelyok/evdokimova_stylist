@@ -206,7 +206,7 @@ h3 {
 
 h4 {  font-size: 1.4rem;}
 
-p  {
+p, li  {
  font-weight: 300;   
  line-height: 1.4;
  margin-bottom: 0.8rem;
@@ -229,7 +229,6 @@ p:last-child {
 .text-small {   font-size: 0.7rem;}
 
 .big-bold {
-  font-family: 'Merriweather Sans', sans-serif;
   color: #414141;
   font-weight: bold;
   font-size: 7vw;
@@ -321,8 +320,9 @@ a:hover { color: #a2745c; }
 
 .emphasis-button {
     border: 1px solid;
-    margin-left: 0.5rem;
-    padding: 0.6rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    letter-spacing: 0.1rem;
   }
 
 .lower {
