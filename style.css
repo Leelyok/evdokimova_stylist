@@ -834,6 +834,17 @@ a.bg-image {
   z-index: 1;
 }
 
+.logo {
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 20%;
+  right: 3%;
+  width: 420px;
+  height: 120px;
+  z-index: 1;
+}
+
 .quote {
   object-fit: contain;
   object-position: center;
@@ -1433,6 +1444,10 @@ figure:nth-child(8) {
      .logo-img {      
        top: -3%; 
        max-width: 60%;  
+      }
+
+      .logo {
+        top: 0%;
       }
 
      .m-l-m4  {  margin-left: 3rem;}
