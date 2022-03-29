@@ -61,7 +61,6 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  concurrent-ruby (~> 1.1.9)
   jekyll
 
 BUNDLED WITH
